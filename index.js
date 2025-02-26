@@ -27,7 +27,6 @@ wss.on('connection', (ws) => {
 
   // 监听Pong响应
   ws.on('pong', () => {
-    lastPong = Date.now();
     console.log('服务端收到Pong');
   });
 });
