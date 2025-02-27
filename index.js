@@ -8,6 +8,7 @@ const http = require('http');
 const server = http.createServer((req, res) => {
   res.writeHead(404);
     res.end('404');
+  console.log('404');
 });
 
 // 创建WebSocket服务器并绑定到HTTP服务器
