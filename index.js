@@ -6,7 +6,7 @@ const http = require('http');
 
 // 创建HTTP服务器
 const server = http.createServer((req, res) => {
-  res.writeHead(404);
+  res.writeHead(200);
     res.end('404');
   console.log('404');
 });
